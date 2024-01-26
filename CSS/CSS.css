@@ -1,0 +1,42 @@
+header{
+    margin: -10px;
+    background-color: #FF6900;
+    padding: 0.7vw;
+}
+
+.headerOne{
+    padding: 0.7vw;
+    display: flex;
+}
+
+.headerOne div{
+    padding-inline: 10px;
+}
+.headerOne div a{
+    font-size: 14px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+.navegationBar{
+    
+}
+.Tel{
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+.phoneImg{
+    margin-right:6px;
+    vertical-align: middle;
+    width: 14px;
+}
+.phoneBox{
+    border-right: 1px solid white;
+    padding-inline: 10px;
+}
+
+.Persona{
+    border-left: 1px solid white;
+    padding-inline: 10px;
+}
