@@ -24,15 +24,44 @@ header {
 
 
 .Tel {
+    background-image: url(../Imagenes/phone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 20px;
     vertical-align: middle;
     text-decoration: none;
     color: white;
 }
-
-.phoneImg {
-    margin-right: 6px;
+.CorreoIcon {
+    background-image: url(../Imagenes/mail.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 25px;
     vertical-align: middle;
-    width: 14px;
+    text-decoration: none;
+    color: white;
+}
+.PersonaIcon {
+    background-image: url(../Imagenes/person.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+.Buscar {
+    background-image: url(../Imagenes/lupa.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 25px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
 }
 
 .phoneBox {
