@@ -81,6 +81,41 @@ header {
 }
 /*César*/
 
+/* ainhoa */
+.FlexBoxForCircularImages{
+    display: flex;
+    text-align: center;
+    color:white;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+}
+
+.CircularImageGreen{
+    background-color: #6BC048;
+    margin: 0%;
+    margin-top: 5%;
+    padding: 20px;
+    width: 33%;
+}
+.CircularImageBlue{
+    background-color:#5CD4E3;;
+    margin: 0%;
+    margin-top: 5%;
+    padding: 20px;
+    width: 33%;
+}
+.CircularImageOrange{
+    background-color: #FF6900;
+    margin: 0px;
+    margin-top: 5%;
+    padding: 20px;
+    width: 33%;
+}
+.CircularImage{
+    margin: 5%;
+    width: 100%;
+}
+/* ainhoa */
 
 /*Isabel*/ /*Carrusel de Imágenenes*/
 .slider-box{
