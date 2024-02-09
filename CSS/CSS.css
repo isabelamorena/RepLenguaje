@@ -154,6 +154,29 @@ footer div div a{
 /*César*/
 
 /* ainhoa */
+.OrangeHeading{
+    color: #FF6900;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+.BlackHeading{
+    color: black;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+.OrangeHr{
+    height: 1px;
+    color: #FF6900;
+    background-color: #FF6900;
+}
+.FirstBlackText{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
 .FlexBoxForCircularImages{
     display: flex;
     text-align: center;
