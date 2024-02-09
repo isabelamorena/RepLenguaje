@@ -108,6 +108,8 @@ footer div div a{
     font-weight: normal;
 }
 .supreme{
+    margin-right: 10%;
+    margin-left: 10%;
     display: flex;
     justify-content: center;
 }
