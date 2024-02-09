@@ -79,6 +79,76 @@ header {
     border-right: 1px solid white;
     padding-inline: 10px;
 }
+footer{
+    font-size: 14px;
+    background-color: rgb(72, 72, 72);
+    padding: 50px 20px 50px 20px;
+    margin: -9px;
+    position: relative;
+    display: block;
+    justify-content: center;
+}
+footer div{
+    font-weight: bold;
+}
+.fundacion{
+    margin-bottom: 6px;
+}
+.subFundacion{
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 3vw;
+}
+footer div div{
+    color: white;
+}
+footer div div a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+.supreme{
+    display: flex;
+    justify-content: center;
+}
+.fCaja{
+    width: 20%;
+    padding: 5px;
+}
+.subFundacion li{
+    padding-bottom: 6px;
+}
+.socialMedia{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .condicionesUso{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .condicionesUso a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-weight: normal;
+    margin-right: 10px;
+  }
 /*César*/
 
 /* ainhoa */
