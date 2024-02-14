@@ -1,0 +1,47 @@
+/*Belmonte*/
+.blanco {
+    margin: 10px -10px;
+    padding: 11px 40px;
+    background-color: white;
+    display: flex;
+    font-size: 14px;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem2 {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 27px;
+    font-weight: bold;
+}
+
+.menuItem2:not(.noWhiteSpace){
+    white-space: nowrap;
+}
+
+.menuItem2 a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.menuItem2 a:hover{
+    color: #ff6900;
+    border-bottom: #ff6900 5px solid;
+}
+
+.menuItem2:first-child {
+    margin-left: 400px;
+}
+
+.logo {
+    background-image: url(../imagenes/logoFundacionJosepCarreras.jpeg);
+    background-position: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 275px;
+    padding: 56px;
+}
+/*Belmonte*/
