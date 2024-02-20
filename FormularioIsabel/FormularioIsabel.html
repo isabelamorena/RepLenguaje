@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario Isabel Y. Moreno</title>
+
+    <link rel="stylesheet" href="ForIsaCss.css">
+</head>
+
+<header>
+    <!--César-->
+    <div class="headerOne">
+        <div class="phoneBox">
+            <a href="" class="Tel">93 414 55 66</a>
+        </div>
+        <div class="Correo">
+            <a href="" class="CorreoIcon">Contacta</a>
+        </div>
+        <div class="Persona">
+            <a href="" class="PersonaIcon">Espacio socios y amigos</a>
+        </div>
+        <div class="Busca">
+            <a href="" class="Buscar">Buscar</a>
+        </div>
+        <div class="idiomas">
+            <a href="" class="idioma">CAT/</a>
+            <a href="" class="idioma">ESP/</a>
+            <a href="" class="idioma">ENG</a>
+        </div>
+    </div>
+    <!--César-->
+</header>
+    <!--Belmonte-->
+    <div class="blanco">
+        <div class="logo"></div>
+        <div class="menuItem2">
+            <a href="#LA FUNDACIÓN">LA FUNDACIÓN</a></li>
+        </div>
+        <div class="menuItem2">
+            <a href="#JOSEP CARRERAS">JOSEP CARRERAS</a></li>
+        </div>
+        <div class="menuItem2">
+            <a href="#QUÉ HACEMOS">QUÉ HACEMOS</a></li>
+        </div>
+        <div class="menuItem2">
+            <a href="#COLABORA">COLABORA</a></li>
+        </div>
+        <div class="menuItem2">
+            <a href="#PACIENTES">PACIENTES</a></li>
+        </div>
+        <div class="menuItem2">
+            <a href="#DONANTES">DONANTES</a></li>
+        </div>
+        <div class="menuItem2 noWhiteSpace">
+            <a href="#CONTENIDO IMPARABLES">CONTENIDO IMPARABLE</a></li>
+        </div>
+    </div>
+ <!--Belmonte-->
+
+<!--Isabel-->
+<body>
+
+
+    <section >
+    <div class="aux">
+            <!--Texto: donativo-->
+        <div class="firstFather">
+                <p class="donationText">¡Haz tu donativo!</p>
+            
+        </div>
+
+        <div  class="secondFather"> <!--cambialo después a fistFather, es solo ver el color-->
+            <p>Con tu donativo te sumas a la comunidad de Imparables que luchamos contra
+                la leucemia y las enfermedades oncológicas de la sangre.</p>
+        </div>
+
+        <!--Tipo de colaborador-->
+
+        <p class="encabezadoTexto">Tipo de colaborador</p>
+    
+        <div class="colaboradorFather">
+            <button class="botonColaborador"> Particular </button>
+            <button class="botonColaborador"> Empresa </button>
+
+        </div>
+
+        <p class="encabezadoTexto">¿Cuánto quieres aportar?</p>
+
+            <div class="botonesDinero">
+                <button class="botonD"> 75€ </button>
+                <button class="botonD"> 150€ </button>
+                <button class="botonD"> 300€ </button>
+                <button class="botonD"> 
+                    Otra     
+                    <input type="text" id="lname" name="lname">
+                </button>
+            </div>
+
+            <div class="todosDatos1">
+                <input type="text" id="pwd" name="Razón" placeholder="Razón Social*">
+                <input type="text" id="pwd" name="Nombre" placeholder="Nombre de la persona de contacto*">
+                <input type="text" id="pwd" name="Apellido" placeholder="Apellido de la persona de contacto*">
+                <input type="text" id="pwd" name="Teléfono" placeholder="Teléfono*">
+                <input type="text" id="pwd" name="Email" placeholder="Email*">
+                <input type="text" id="pwd" name="CIF" placeholder="CIF/ Tax Code*">
+            </div>
+
+            <div class="todosDatos2">
+                <div>
+                    <p>Tipo de documento:</p>
+
+                    <form action="/action_page.php">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">NIF</label><br>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Pasaporte</label><br>
+                    </form>
+                </div>
+
+                <form>
+                    <input type="text" id="nifPasaporteText" name="pwd" placeholder="NIF/Pasaporte*">
+                </form>
+
+            </div>
+
+            <div class="todosDatos3">
+                <input type="text" id="pwd" name="pwd" placeholder="Población*">
+                <input type="text" id="pwd" name="pwd" placeholder="Nombre de la persona de contacto*">
+                <input type="text" id="pwd" name="pwd" placeholder="Código postal*">
+                <input type="text" id="tdd" name="pwd" placeholder="Teléfono*">
+                <input type="text" id="tdd" name="pwd" placeholder="Nombre de la vía*">
+                <input type="text" id="tdd" name="pwd" placeholder="Número de la vía*">
+                <input type="text" id="tdd" name="pwd" placeholder="Datos (piso, puerta...)*">
+            </div>
+
+            <div class="divPago">
+                <div class="encabezadoTexto">
+                    <p>Forma de pago: </p>
+                </div>
+                    <form>
+                        <input id="formaPago" list="p" name="browser">
+                        <datalist id="p">
+                        <option value="Tarjeta de crédito">
+                        <option value="Paypal">
+                        <option value="Bizum">
+                        </datalist>
+                    </form> 
+            </div>
+            
+            <div class="submit">
+                <input type="submit" id="submit" value="Hacer donativo">
+            </div>
+    </div>
+    </section>
+
+</body>
+<!--Isabel-->
+</html>

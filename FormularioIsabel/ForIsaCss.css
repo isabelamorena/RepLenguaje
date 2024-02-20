@@ -1,0 +1,300 @@
+header {
+  margin: -10px;
+  background-color: #FF6900;
+  padding: 0.7vw;
+}
+
+.headerOne {
+  padding: 0.1vw;
+  margin-left: 10%;
+  display: flex;
+}
+
+.headerOne div {
+  padding-inline: 10px;
+}
+
+.headerOne div a {
+  font-size: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+
+.Tel {
+  background-image: url(../Imagenes/phone.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 20px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+.CorreoIcon {
+  background-image: url(../Imagenes/mail.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 25px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+.PersonaIcon {
+  background-image: url(../Imagenes/person.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 20px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+.Buscar {
+  background-image: url(../Imagenes/lupa.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 25px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+.phoneBox {
+  border-right: 1px solid white;
+  padding-inline: 10px;
+}
+
+.Persona {
+  border-left: 1px solid white;
+  padding-inline: 10px;
+}
+
+.Busca {
+  margin-left: 40%;
+  border-right: 1px solid white;
+  padding-inline: 10px;
+}
+
+.blanco {
+  margin: 10px -10px;
+  padding: 11px 40px;
+  background-color: white;
+  display: flex;
+  font-size: 14px;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItem2 {
+  display: flex;
+  vertical-align: middle;
+  margin-right: 27px;
+  font-weight: bold;
+  flex: 7%;
+}
+
+.menuItem2:not(.noWhiteSpace){
+  white-space: nowrap;
+}
+
+.menuItem2 a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.menuItem2 a:hover{
+  color: #ff6900;
+  border-bottom: #ff6900 5px solid;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.menuItem2:last-child a:hover{
+  color: #ff6900;
+  border-bottom: #ff6900 5px solid;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+
+.logo {
+  background-image: url(../imagenes/logoFundacionJosepCarreras.jpeg);
+  background-position: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 275px;
+  padding: 56px;
+}
+
+/*Isabel*/
+section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Sans-serif;
+}
+
+.encabezadoTexto
+{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.firstFather{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+
+.secondFather{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+.donationText{
+  font-size: xx-large;
+  color: #FF6900;
+}
+
+.colaboradorFather{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 20%;
+}
+
+.botonColaborador{
+  background-color: #ffffff; 
+  border: 2px solid orange;
+  color: black;
+  padding: 20px 19%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.botonColaborador:hover {
+  background-color: orange;
+  color: white;
+}
+
+.botonesDinero{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+
+}
+
+.botonD{
+  background-color: #ffffff; 
+  border: 2px solid orange;
+  color: black;
+  padding: 30px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: x-large;
+  color:#FF6900;
+  font-weight: 800;
+}
+
+.botonD:hover{
+  background-color: orange;
+  color: white;
+}
+
+.todosDatos1{
+  display: flex;  
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-bottom: 5%;
+}
+
+#pwd{
+  width: 30%;
+  height: 40px;
+  margin: 1%;
+}
+#pwd::placeholder {
+  color: rgb(176, 176, 176);
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.todosDatos2{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-bottom: 5%;
+}
+
+#nifPasaporteText{
+  width: 190%;
+  height: 50%;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.todosDatos3{
+  margin-bottom: 5%;
+}
+
+#tdd{
+  width: 22%;
+  height: 40px;
+  margin: 1%;
+}
+#tdd::placeholder{
+  color: rgb(176, 176, 176);
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.divPago{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+#formaPago{
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+#submit{
+  height: 40px;
+  width: 200px;
+  color:#FF6900;
+  border-color: #FF6900;
+  background-color: #ffffff;
+}
+
+#submit:hover{
+  color:#ffffff;
+  background-color:#FF6900;
+}
+
+.submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
